@@ -4,7 +4,7 @@
             "id": "minecraft:player_head",
             "components": {
               "minecraft:profile": "efeketket"
-        }
+            }
         },
         "title": "Ketket's Datapacks",
         "description": "Advancements of the all Ketket's Datapacks",
@@ -18,5 +18,3 @@
         }
     }
 }
-
-
