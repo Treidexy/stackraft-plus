@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": ["###", "###", "###"],
+	"key": {
+		"#": "minecraft:string"
+	},
+	"result": {
+		"id": "minecraft:player_head",
+		"count": 1,
+		"components": {
+			"minecraft:profile": {
+				"properties": [
+					{
+						"name": "textures",
+						"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI1ODY0MWU3NmRhODI2MjE3MDhhM2Q2YzEwYmI0NTBjMjNkNDc1ZTUyMTAzMTBkMGI4N2U0NjBhNWZjMjM1NCJ9fX0="
+					}
+				]
+			},
+			"minecraft:item_name": "Compressed String",
+			"minecraft:custom_data": {
+				"stackraft": 1,
+				"stackraft_item": "minecraft:string"
+			}
+		}
+	}
+}

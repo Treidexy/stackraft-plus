@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shaped",
 	"pattern": ["###", "###", "###"],
 	"key": {
-		"#": ["minecraft:beetroot"]
+		"#": "minecraft:red_dye"
 	},
 	"result": {
 		"id": "minecraft:player_head",
@@ -12,14 +12,14 @@
 				"properties": [
 					{
 						"name": "textures",
-						"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWM5ZTE3MTg3N2EzMTA3MzhmYTM3NzVjODAzOWE3N2FiMTQxNDE3ZjU2ZDI3NmE3MzE4OWM5NzQ5MjBlMjRkMiJ9fX0="
+						"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E0ZjFmMTIyZDQ4OGFhYjA4MGQzNDkyODM4NmQ3ZjI5MDI4NzM2Mjc0N2VjZmQ1MTI4NmMzNDk5NzNlYTUyYyJ9fX0="
 					}
 				]
 			},
-			"minecraft:item_name": "Compressed Beetroot",
+			"minecraft:item_name": "Compressed Red Dye",
 			"minecraft:custom_data": {
 				"stackraft": 1,
-				"stackraft_item": "minecraft:beetroot"
+				"stackraft_item": "minecraft:red_dye"
 			}
 		}
 	}

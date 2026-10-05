@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shaped",
 	"pattern": ["###", "###", "###"],
 	"key": {
-		"#": ["minecraft:carrot"]
+		"#": "minecraft:blaze_rod"
 	},
 	"result": {
 		"id": "minecraft:player_head",
@@ -12,14 +12,14 @@
 				"properties": [
 					{
 						"name": "textures",
-						"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQzYTZiZDk4YWMxODMzYzY2NGM0OTA5ZmY4ZDJkYzYyY2U4ODdiZGNmM2NjNWIzODQ4NjUxYWU1YWY2YiJ9fX0="
+						"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjRiMWI5Y2UyZTlhNmNlOGE5ODVkMzk3NzZlMjkwODA3N2I4MmU2YTMzM2QyYTgxYTQ0MTQzOGVhYjM5ZjhlMSJ9fX0="
 					}
 				]
 			},
-			"minecraft:item_name": "Compressed Carrot",
+			"minecraft:item_name": "Compressed Blaze Rod",
 			"minecraft:custom_data": {
 				"stackraft": 1,
-				"stackraft_item": "minecraft:carrot"
+				"stackraft_item": "minecraft:blaze_rod"
 			}
 		}
 	}

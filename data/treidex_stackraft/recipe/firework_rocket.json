@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shaped",
 	"pattern": ["###", "###", "###"],
 	"key": {
-		"#": ["minecraft:firework_rocket"]
+		"#": "minecraft:firework_rocket"
 	},
 	"result": {
 		"id": "minecraft:player_head",

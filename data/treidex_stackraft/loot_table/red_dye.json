@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "minecraft:potato",
+					"name": "minecraft:red_dye",
 					"modifier": {
 						"count": {
 							"type": "minecraft:score",

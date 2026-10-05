@@ -1,5 +1,5 @@
 {
-	"type": "entity",
+	"type": "generic",
 	"pools": [
 		{
 			"rolls": 1,

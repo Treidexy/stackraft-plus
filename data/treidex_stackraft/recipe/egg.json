@@ -2,7 +2,7 @@
 	"type": "minecraft:crafting_shaped",
 	"pattern": ["###", "###", "###"],
 	"key": {
-		"#": ["minecraft:egg"]
+		"#": "minecraft:egg"
 	},
 	"result": {
 		"id": "minecraft:player_head",

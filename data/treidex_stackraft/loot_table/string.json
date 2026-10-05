@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "minecraft:potato",
+					"name": "minecraft:string",
 					"modifier": {
 						"count": {
 							"type": "minecraft:score",

@@ -9,3 +9,5 @@ execute if items entity @s player.crafting.* minecraft:player_head[minecraft:cus
 execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:potato"}] run return run loot give @s loot treidex_stackraft:potato
 execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:rotten_flesh"}] run return run loot give @s loot treidex_stackraft:rotten_flesh
 execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:sugar_cane"}] run return run loot give @s loot treidex_stackraft:sugar_cane
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:red_dye"}] run return run loot give @s loot treidex_stackraft:red_dye
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:string"}] run return run loot give @s loot treidex_stackraft:string
