@@ -1,8 +1,7 @@
 execute store result score @s return_count run execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{stackraft:1b}]
 scoreboard players operation @s return_count *= #9 num
 
-execute as @a run tellraw @s [{"text": "Your score: "}, {"score": {"name": "@s", "objective": "return_count"}}]
-execute at @s run function ketket_stackraft:giveloot
+function treidex_stackraft:giveloot
 
 scoreboard players set @s return_count 0
 execute if items entity @s player.crafting.0 player_head[minecraft:custom_data~{stackraft:1b}] run item replace entity @s player.crafting.0 with air

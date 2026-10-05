@@ -3,12 +3,12 @@
 		"icon": {
 			"id": "minecraft:player_head",
 			"components": {
-				"minecraft:profile": "efeketket"
+				"minecraft:profile": "Treidex"
 			}
 		},
-		"title": "Ketket's Datapacks",
-		"description": "Advancements of the all Ketket's Datapacks",
-		"background": "minecraft:block/birch_planks",
+		"title": "Treidex's Datapacks",
+		"description": "Advancements of the all Treidex's Datapacks",
+		"background": "minecraft:block/gold_block",
 		"announce_to_chat": false,
 		"hidden": false
 	},

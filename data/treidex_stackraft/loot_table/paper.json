@@ -1,0 +1,23 @@
+{
+	"type": "entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:paper",
+					"modifier": {
+						"count": {
+							"type": "minecraft:score",
+							"target": "this",
+							"score": "return_count"
+						},
+						"add": false,
+						"type": "minecraft:set_count"
+					}
+				}
+			]
+		}
+	]
+}

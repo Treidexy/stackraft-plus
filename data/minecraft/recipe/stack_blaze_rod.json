@@ -9,7 +9,6 @@
 		"count": 1,
 		"components": {
 			"minecraft:profile": {
-				"id": [-1090068770, 1447773038, -1785439622, 1344557054],
 				"properties": [
 					{
 						"name": "textures",
