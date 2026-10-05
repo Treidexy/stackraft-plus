@@ -7,19 +7,23 @@
 				{
 					"type": "item",
 					"name": "minecraft:beetroot",
-					"modifier": {
-						"count": {
-							"type": "minecraft:score",
-							"target": "this",
-							"score": "return_count"
-						},
-						"add": false,
-						"type": "minecraft:set_count"
-					},
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_data",
-							"id": "minecraft:sugar_cane"
+							"count": {
+								"type": "minecraft:score",
+								"target": "this",
+								"score": "return_count"
+							},
+							"add": false,
+							"type": "minecraft:set_count"
+						},
+						{
+							"type": "minecraft:set_item",
+							"item": {
+								"type": "minecraft:score",
+								"target": "this",
+								"score": "return_count"
+							}
 						}
 					]
 				}
