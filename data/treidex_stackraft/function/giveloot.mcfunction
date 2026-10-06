@@ -1,14 +1,14 @@
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:beetroot"}] run return run loot give @s loot treidex_stackraft:beetroot
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:blaze_rod"}] run return run loot give @s loot treidex_stackraft:blaze_rod
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:carrot"}] run return run loot give @s loot treidex_stackraft:carrot
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:egg"}] run return run loot give @s loot treidex_stackraft:egg
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:ender_pearl"}] run return run loot give @s loot treidex_stackraft:ender_pearl
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:firework_rocket"}] run return run loot give @s loot treidex_stackraft:firework_rocket
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:gunpowder"}] run return run loot give @s loot treidex_stackraft:gunpowder
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:paper"}] run return run loot give @s loot treidex_stackraft:paper
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:potato"}] run return run loot give @s loot treidex_stackraft:potato
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:rotten_flesh"}] run return run loot give @s loot treidex_stackraft:rotten_flesh
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:sugar_cane"}] run return run loot give @s loot treidex_stackraft:sugar_cane
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:red_dye"}] run return run loot give @s loot treidex_stackraft:red_dye
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:string"}] run return run loot give @s loot treidex_stackraft:string
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:golden_carrot"}] run return run loot give @s loot treidex_stackraft:golden_carrot
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:beetroot"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:beetroot
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:blaze_rod"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:blaze_rod
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:carrot"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:carrot
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:egg"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:egg
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:ender_pearl"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:ender_pearl
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:firework_rocket"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:firework_rocket
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:gunpowder"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:gunpowder
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:paper"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:paper
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:potato"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:potato
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:rotten_flesh"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:rotten_flesh
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:sugar_cane"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:sugar_cane
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:red_dye"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:red_dye
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:string"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:string
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"minecraft:golden_carrot"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:golden_carrot

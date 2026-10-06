@@ -1,7 +1,7 @@
 execute store result score @s return_count run execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{stackraft:1b}]
 scoreboard players operation @s return_count *= #9 num
 
-function treidex_stackraft:giveloot
+execute at @s run function treidex_stackraft:giveloot
 
 scoreboard players set @s return_count 0
 execute if items entity @s player.crafting.0 player_head[minecraft:custom_data~{stackraft:1b}] run item replace entity @s player.crafting.0 with air

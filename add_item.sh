@@ -66,7 +66,7 @@ cat << EOF > data/treidex_stackraft/loot_table/$ITEM.json
 EOF
 
 cat << EOF >> data/treidex_stackraft/function/giveloot.mcfunction
-execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"$NAMESPACE:$ITEM"}] run return run loot give @s loot treidex_stackraft:$ITEM
+execute if items entity @s player.crafting.* minecraft:player_head[minecraft:custom_data~{"stackraft_item":"$NAMESPACE:$ITEM"}] run return run loot spawn ~ ~ ~ loot treidex_stackraft:$ITEM
 EOF
 
 echo Added $ITEM_TITLE
